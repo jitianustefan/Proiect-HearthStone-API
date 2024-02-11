@@ -1,0 +1,99 @@
+
+/* stilizez partea de formular (input, select, buton) */
+.app_formular{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.input_cauta {
+    height: 2em;
+    font-size: 1em;
+    box-sizing: border-box;
+}
+.select_cauta {
+    font-size: 1em;
+    height: 2em;
+    margin: 0 0.5vw;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.buton {
+    height: 2em;
+    font-size: 1em;
+    box-sizing: border-box;
+}
+
+/* stilizare pentru partea de afisare a imaginilor
+ si a informatiilor despre carti */
+.afisare_info {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin:10vh 0;
+}
+
+.container_afisare {
+    padding: 25px;
+    background-color: #e0ebeb;
+    width:20vw;
+    height: 70vh;
+    border: 3px solid  black;
+    border-radius: 5px;
+}
+.box_info {
+    position: relative;
+  }
+.box_info img{
+    width: 20vw;
+    height: 50vh; 
+}
+.box_info{
+    transition: transform 2s ease;
+}
+.box_info:hover {
+    transform: scale(1.1);    
+}
+
+.info_carte {
+    
+    width: 20vw;
+    height: 20vh;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2vh;
+    padding: 20px;
+}
+
+
+/* afisez diferit in functie de dimensiunile ecranului */
+/* @media screen and (max-width: 1650px)
+{
+    .box_info img{
+        width: 20vw;
+        height: 50vh; 
+    }
+} */
+
+@media screen and (max-width:800px)
+{
+    .afisare_info{
+        flex-direction: column;
+    }
+    .app_formular{
+        margin:15px;
+    }
+    .container_afisare {
+        width: 40vw;
+        height: 70vh;
+    }
+    .box_info img{
+        width: 40vw;
+        height: 40vh; 
+    }
+    .info_carte{
+        padding: 40px 0px;
+    }
+}

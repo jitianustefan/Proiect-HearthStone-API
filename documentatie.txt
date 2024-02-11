@@ -1,0 +1,10 @@
+Salut! Voi face un noi fisier de documentatie.
+
+npm i react-router-dom
+
+browserRouter -> react context
+
+useParams() - > are toti parametrii definiti de noi in particular in rute
+
+height: Aceasta este proprietatea CSS care controlează înălțimea elementului.
+100vh: Este o unitate relativă care reprezintă 100% din înălțimea vizibilă a ecranului (viewport height).
