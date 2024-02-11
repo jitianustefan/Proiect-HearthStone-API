@@ -111,10 +111,7 @@ const Cauta = () =>
         const options = {
             method: 'GET',
             url: `https://omgvamp-hearthstone-v1.p.rapidapi.com/cards/search/${nume}`,
-            headers: {
-              'X-RapidAPI-Key': '003f468fddmsheef85277d8b2277p11b0a3jsn71cb8a1c94df',
-              'X-RapidAPI-Host': 'omgvamp-hearthstone-v1.p.rapidapi.com'
-            }
+            //aici trebuie adaugate datele de conectare
           };
         try {
             const response = await axios.request(options);
@@ -141,10 +138,7 @@ const Cauta = () =>
         const options = {
             method: 'GET',
             url: `https://omgvamp-hearthstone-v1.p.rapidapi.com/cards/classes/${nume}`,
-            headers: {
-              'X-RapidAPI-Key': '003f468fddmsheef85277d8b2277p11b0a3jsn71cb8a1c94df',
-              'X-RapidAPI-Host': 'omgvamp-hearthstone-v1.p.rapidapi.com'
-            }
+            //aici trebuie adaugate datele de conectare
           };
           
           try {
@@ -171,10 +165,7 @@ const Cauta = () =>
         const options = {
             method: 'GET',
             url: `https://omgvamp-hearthstone-v1.p.rapidapi.com/cards/races/${nume}`,
-            headers: {
-              'X-RapidAPI-Key': '003f468fddmsheef85277d8b2277p11b0a3jsn71cb8a1c94df',
-              'X-RapidAPI-Host': 'omgvamp-hearthstone-v1.p.rapidapi.com'
-            }
+            //aici trebuie adaugate datele de conectare
           };
           
           try {
